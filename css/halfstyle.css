@@ -19,9 +19,11 @@
     position:absolute;
     top:0;
     width: 50%;
+    width: 100%
     content: attr(data-content); /* dynamic content for the pseudo element */
     pointer-events: none; /* so the base char is selectable by mouse and the click handlers bound on it will fire */
     overflow:hidden;
+    
     color: #f00; /* for demo purposes */
 }
  /* end half-style hs-base */
@@ -41,6 +43,7 @@
     position:absolute;
     top:0;
     width: 50%;
+    width: 100%;
     content: attr(data-content); /* dynamic content for the pseudo element */
     overflow:hidden;
     pointer-events: none; /* so the base char is selectable by mouse and the click handlers bound on it will fire */
@@ -52,6 +55,7 @@
     direction: rtl; /* very important, will make the width to start from right */
     position:absolute;
     z-index:2;
+    z- index:1.5;
     top:0;
     left:50%;
     width: 50%;
